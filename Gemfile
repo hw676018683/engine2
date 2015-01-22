@@ -13,6 +13,7 @@ group :assets do
   gem 'coffee-rails',   '~> 3.2.2'
   gem 'uglifier',       '~> 2.5.1'
   gem 'therubyracer', :platforms => :ruby
+  gem 'turbo-sprockets-rails3'
 end
 
 gem 'locomotivecms_liquid_extensions', github: 'locomotivecms/liquid_extensions', branch: 'hosting'
@@ -23,4 +24,7 @@ group :development do
 
   gem "better_errors"
   gem "binding_of_caller"
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-bundler', '~> 1.1.2'
+  gem 'capistrano-rvm'
 end
