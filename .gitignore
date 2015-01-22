@@ -15,3 +15,8 @@
 /tmp
 /public/sites
 /public/assets
+/config/deploy
+/config/deploy.rb
+
+.capistrano/
+Capfile

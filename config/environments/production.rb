@@ -73,7 +73,7 @@ Engine2::Application.configure do
   }
 
   config.action_mailer.default_url_options = {
-    host: "http://stage.cdrtvu.cc"
+    host: "http://cdrtvu.cc"
   }
 
   # config.action_mailer.raise_delivery_errors = true
