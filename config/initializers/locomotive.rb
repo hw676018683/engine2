@@ -12,7 +12,7 @@ Locomotive.configure do |config|
   
     # define the reserved subdomains
     # Ex:
-    multi_sites.reserved_subdomains = %w(www admin email blog webmail mail support help site sites)
+    multi_sites.reserved_subdomains = %w(admin email blog webmail mail support help site sites)
   end
   # config.multi_sites = false
 
