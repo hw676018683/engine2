@@ -1,10 +1,10 @@
-source 'https://ruby.taobao.org'
+source 'https://gems.ruby-china.org'
 
 gem 'libv8', '3.16.14.3'
 gem 'rails', '3.2.19'
 # gem 'locomotive_cms', '~> 2.5.6', :require => 'locomotive/engine'
 gem 'locomotive_cms', github: 'hw676018683/engine', branch: 'v2.5.x'
-# gem 'locomotive_cms', :path => "../../engine" 
+# gem 'locomotive_cms', :path => "../../engine"
 
 group :assets do
   gem 'compass',        '~> 0.12.7'
@@ -24,7 +24,9 @@ group :development do
 
   gem "better_errors"
   gem "binding_of_caller"
-  gem 'capistrano-rails', '~> 1.1'
-  gem 'capistrano-bundler', '~> 1.1.2'
-  gem 'capistrano-rvm'
+
+  gem 'mina'
+  gem 'mina-puma', require: false
 end
+
+gem 'puma'
