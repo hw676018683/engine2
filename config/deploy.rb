@@ -11,14 +11,14 @@ require 'mina/puma'
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :application_name, 'cdrtvu_cms'
-set :domain, '114.55.127.112'
+set :domain, '114.55.127.164'
 set :deploy_to, '/var/www/cdrtvu_cms'
 set :repository, 'git@github.com:hw676018683/engine2.git'
 set :branch, 'master'
 
 # Optional settings:
 set :user, 'deploy'          # Username in the server to SSH to.
-set :port, '1111'           # SSH port number.
+set :port, '2222'           # SSH port number.
 #   set :forward_agent, true     # SSH forward_agent.
 
 # shared dirs and files will be symlinked into the app-folder by the 'deploy:link_shared_paths' step.
